@@ -1,0 +1,63 @@
+{
+  "tracks": [
+    {
+      "id": 3,
+      "title": "La Balsa",
+      "artist": "Los Gatos"
+    },
+    {
+      "id": 2,
+      "title": "La Balsa",
+      "artist": "Los Gatos"
+    },
+    {
+      "id": 1,
+      "title": "La Balsa",
+      "artist": "Los Gatos"
+    }
+  ],
+  "users": [
+    {
+      "id": "93a9",
+      "username": "UserLeandro",
+      "password": "12345",
+      "email": "leandro@gmail.com",
+      "fullname": "Dini",
+      "phone": "654567"
+    },
+    {
+      "id": "dd83",
+      "username": "UserGaston",
+      "password": "54345",
+      "email": "Gaston@gmail.com",
+      "fullname": "Alvarez",
+      "phone": "654567"
+    },
+    {
+      "id": "5725",
+      "username": "UserMelani",
+      "password": "54345",
+      "email": "Melani@gmail.com",
+      "fullname": "Alvarez",
+      "phone": "654567"
+    },
+    {
+      "id": "2c58",
+      "username2": "UserMelani",
+      "password": "54345",
+      "email": "Melani@gmail.com",
+      "fullname": "Alvarez",
+      "phone": "654567",
+      "phone2": "654567"
+    },
+    {
+      "id": "a73e",
+      "username": "JuanCepit",
+      "password": "543455",
+      "email": "Melani@gmai.com",
+      "fullname": "Alvarez",
+      "phone": "654567",
+      "phone2": "654567"
+    }
+  ]
+}
