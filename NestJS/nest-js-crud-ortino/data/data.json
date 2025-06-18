@@ -1,0 +1,19 @@
+{
+  "ciudades": [
+    {
+      "id": "1",
+      "nombre": "Tandil",
+      "poblacion": 150162
+    },
+    {
+      "id": "2",
+      "nombre": "Mar del Plata",
+      "poblacion": 667082
+    },
+    {
+      "id": "3",
+      "nombre": "Ayacucho",
+      "poblacion": 22000
+    }
+  ]
+}
