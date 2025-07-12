@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Hola, mundo</h1>
+    <p>Este es un sitio servido desde un servidor estatico</p>
+
+    <!--GET BY ID-->
+    <h2>Buscar cliente por Id</h2>
+    <input type="number" id="getIdinput" placeholder="Ingrese ID del cliente">
+    <button id="getId">Buscar</button>
+    <p id="getResult"></p>
+
+    
+    <!--DELETE BY ID-->
+    <h2>ELIMINAR cliente por Id</h2>
+    <input type="number" id="inputDeleteId" placeholder="Ingrese ID del cliente a eliminar">
+    <button id="deleteId">Eliminar</button>
+    <p id="deleteResult"></p>
+    
+    <!--CREAR CLIENTE-->
+    <h2>Crear Cliente</h2>
+    <input type="text" id="nombre" placeholder="Nombre"><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br>
+    <input type="text" id="direccion" placeholder="Direccion"><br>
+    <input type="text" id="activo" placeholder="Activo"><br>
+    <button id="createBtn">Crear</button>
+     <p id="createResult"></p>
+    
+    <!--ACTUALIZAR CLIENTE-->
+    <h2>Actualizar Cliente</h2>
+    <input type="number" id="updateId" placeholder="ID del cliente a actualizar"><br>
+    <input type="text" id="updateNombre" placeholder="Nuevo nombre"><br>
+    <input type="text" id="updateApellido" placeholder="Nuevo apellido"><br>
+    <input type="text" id="updateDireccion" placeholder="Nueva dirección"><br>
+    <input type="number" id="updateActivo" placeholder="¿Esta activo? ingresar numero (0 = inactivo o 1 = activo)"><br>
+    <button id="updateBtn">Actualizar</button>
+    <p id="updateResult"></p>
+    
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
